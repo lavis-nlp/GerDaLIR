@@ -10,7 +10,7 @@ More information about the dataset and its generation can be taken from the offi
 All files are formatted with tab-separators (*.tsv) and packed with gzip. Some files are packed to tarballs and compressed (\*.tar.gz). Sizes specified refer to decompressed size. Details about the individual Files can be found in the [dataset details section](#dataset-details)
 
 
-### Mandatory Files
+### Essential Files
 
 The collection, the queries and the relevance labels can be downloaded with the links in the table below.
 
@@ -23,7 +23,7 @@ The collection, the queries and the relevance labels can be downloaded with the 
 
 ### Optional Files
 
-Beneath the necessary files, we also provide a file that maps or document-ids back to the original file numbers as well as passage-wise and document-wise BM25 rankings (candidates) that can conveniently be used for training or re-ranking. Passage-wise candidate files contain the whole passages as text, while document-wise candidate files only specify document-ids.
+Beneathe the essential files, also a bunch of optional files can be downloaded. Among them is a file that maps document-ids back to the original file numbers. For convenience, we also provide passage-wise and document-wise BM25 rankings (candidates) that can be used for training or re-ranking. Passage-wise candidate files contain the whole passages as text, while document-wise candidate files only specify document-ids.
   
 
 | Filename               | Description                          | Num Records | Size    | Format                  |
