@@ -23,7 +23,7 @@ The collection, the queries and the relevance labels can be downloaded with the 
 
 ### Optional Files
 
-Beneathe the essential files, also a bunch of optional files can be downloaded. Among them is a file that maps document-ids back to the original file numbers. For convenience, we also provide passage-wise and document-wise BM25 rankings (candidates) that can be used for training or re-ranking. Passage-wise candidate files contain the whole passages as text, while document-wise candidate files only specify document-ids.
+Beneath the essential files, also a bunch of optional files can be downloaded. Among them is a file that maps document-ids back to the original file numbers (see [details](#reference-number-map)) . For convenience, we also provide passage-wise and document-wise BM25 rankings (candidates) that can be used for training or re-ranking. Passage-wise candidate files contain the whole passages as text, while document-wise candidate files only specify document-ids.
   
 
 | Filename               | Description                          | Num Records | Size    | Format                  |
