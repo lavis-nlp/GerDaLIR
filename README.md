@@ -2,7 +2,7 @@
 
 The **Ger**man **Da**taset for **L**egal **I**nformation **R**etrieval (GerDaLIR) is a legal information retrieval dataset comprising a large collection of documents, passages and relevance labels. The large amount of training data we provide enables GerDaLIR to be used as a downstream task for German or multilingual language models. The task provided is a precedent retrieval task based on case documents from the open legal information platform [Open Legal Data](http://openlegaldata.io/). Relevance labels are derived from references: If a passage contains a reference to one or more available documents, the passage is used as a query while the referenced cases are labelled as relevant.
  
-More information about the dataset and its generation can be taken from the official paper: [link coming soon](.) 
+More information about the dataset and its generation can be taken from the official [GerDaLIR paper](https://aclanthology.org/2021.nllp-1.13/) 
 
 
 ## Download
@@ -123,5 +123,18 @@ We provide several baselines on our dataset. With Mode "P" and "D" we refer to p
 If you use this dataset for your research, please consider citing our Paper: 
 
 ```
-bibtex coming soon
+@inproceedings{wrzalik-krechel-2021-gerdalir,
+    title = "{G}er{D}a{LIR}: A {G}erman Dataset for Legal Information Retrieval",
+    author = "Wrzalik, Marco  and
+      Krechel, Dirk",
+    booktitle = "Proceedings of the Natural Legal Language Processing Workshop 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.nllp-1.13",
+    pages = "123--128",
+    abstract = "We present GerDaLIR, a German Dataset for Legal Information Retrieval based on case documents from the open legal information platform Open Legal Data. The dataset consists of 123K queries, each labelled with at least one relevant document in a collection of 131K case documents. We conduct several baseline experiments including BM25 and a state-of-the-art neural re-ranker. With our dataset, we aim to provide a standardized benchmark for German LIR and promote open research in this area. Beyond that, our dataset comprises sufficient training data to be used as a downstream task for German or multilingual language models.",
+}
+
 ```
