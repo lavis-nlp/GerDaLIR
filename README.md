@@ -118,7 +118,7 @@ We provide several baselines on our dataset. With Mode "P" and "D" we refer to p
 | Neural Re-ranking - ELECTRA               | P    | __0.436__ | __0.481__ | __0.743__ | 0.789          |
 
 
-## Reference
+## How do I cite this work?
 
 If you use this dataset for your research, please consider citing our Paper: 
 
@@ -136,5 +136,12 @@ If you use this dataset for your research, please consider citing our Paper:
     pages = "123--128",
     abstract = "We present GerDaLIR, a German Dataset for Legal Information Retrieval based on case documents from the open legal information platform Open Legal Data. The dataset consists of 123K queries, each labelled with at least one relevant document in a collection of 131K case documents. We conduct several baseline experiments including BM25 and a state-of-the-art neural re-ranker. With our dataset, we aim to provide a standardized benchmark for German LIR and promote open research in this area. Beyond that, our dataset comprises sufficient training data to be used as a downstream task for German or multilingual language models.",
 }
-
 ```
+
+## Related links
+
+ - [awesome-legal-data](https://github.com/openlegaldata/awesome-legal-data)
+ - [German-NLP](https://github.com/adbar/German-NLP)
+ - [FIRE IRLeD](https://sites.google.com/view/fire2017irled)
+ - [COLIEE 2020](https://sites.ualberta.ca/~rabelo/COLIEE2020/)
+ - [SigmaLaw](https://osf.io/qvg8s/)
