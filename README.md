@@ -16,9 +16,9 @@ The collection, the queries and the relevance labels can be downloaded with the 
 
 | Filename               | Description                          | Num Records | Size    | Format                  |
 |------------------------|-------------------------------------:|------------:|--------:|------------------------:|
-| [`collection.tsv.gz`](http://lavis.cs.hs-rm.de/storage/gerdalir/data/collection.tsv.gz)    | Collection - one passage per line    | 3.095.383   | 2.0 GB  | `d_id, passage`         |    
-| [`queries.tar.gz`](http://lavis.cs.hs-rm.de/storage/gerdalir/data/queries.tar.gz)       | Queries - train, dev and test        |   122.975   | 127 MB  | `q_id, query`           |   
-| [`qrels.tar.gz`](http://lavis.cs.hs-rm.de/storage/gerdalir/data/qrels.tar.gz)         | Labels - train, dev and test         |   144.324   | 1.7 MB  | `q_id, d_id`            | 
+| [`collection.tsv.gz`](https://lavis.cs.hs-rm.de/storage/gerdalir/data/collection.tsv.gz)    | Collection - one passage per line    | 3.095.383   | 2.0 GB  | `d_id, passage`         |    
+| [`queries.tar.gz`](https://lavis.cs.hs-rm.de/storage/gerdalir/data/queries.tar.gz)       | Queries - train, dev and test        |   122.975   | 127 MB  | `q_id, query`           |   
+| [`qrels.tar.gz`](https://lavis.cs.hs-rm.de/storage/gerdalir/data/qrels.tar.gz)         | Labels - train, dev and test         |   144.324   | 1.7 MB  | `q_id, d_id`            | 
 
 
 ### Optional Files
@@ -28,13 +28,13 @@ Beneath the essential files, also a bunch of optional files can be downloaded. A
 
 | Filename               | Description                          | Num Records | Size    | Format                  |
 |------------------------|-------------------------------------:|------------:|--------:|------------------------:|
-| [`refmap.tsv.gz`](http://lavis.cs.hs-rm.de/storage/gerdalir/data/filemap.tsv.gz)        | Doc-Ids to reference number          |   131.446   | 6.2 MB  | `d_id, slug, file`      | 
-| [`pass-candidates.train.tsv.gz`](http://lavis.cs.hs-rm.de/storage/gerdalir/data/pass-candidates.train.tsv.gz)        | Top-1000 _passage_ candidates with text (train)   |  98.380.000    | 85 GB  | `q_id, d_id, rank, text`      | 
-| [`pass-candidates.dev.tsv.gz`](http://lavis.cs.hs-rm.de/storage/gerdalir/data/pass-candidates.dev.tsv.gz)        | Top-1000 _passage_ candidates with text (dev)  |   12.297.000   | 11 GB  | `q_id, d_id, rank, text`      | 
-| [`pass-candidates.test.tsv.gz`](http://lavis.cs.hs-rm.de/storage/gerdalir/data/pass-candidates.test.tsv.gz)        | Top-1000 _passage_ candidates with text (test)   |  12.298.000 | 11 GB  | `q_id, d_id, rank, text`      | 
-| [`doc-candidates.train.tsv.gz`](http://lavis.cs.hs-rm.de/storage/gerdalir/data/doc-candidates.train.tsv.gz)        | Top-1000 _document_ candidates (train)   |  98.380.000    | 1.5 GB  | `q_id, d_id, rank`      |
-| [`doc-candidates.dev.tsv.gz`](http://lavis.cs.hs-rm.de/storage/gerdalir/data/doc-candidates.dev.tsv.gz)        | Top-1000 _document_ candidates (dev)   |  12.297.000     | 189 MB  | `q_id, d_id, rank`      |
-| [`doc-candidates.test.tsv.gz`](http://lavis.cs.hs-rm.de/storage/gerdalir/data/doc-candidates.test.tsv.gz)        | Top-1000 _document_ candidates (test)   |  12.298.000   | 189 MB  | `q_id, d_id, rank`      |
+| [`refmap.tsv.gz`](https://lavis.cs.hs-rm.de/storage/gerdalir/data/filemap.tsv.gz)        | Doc-Ids to reference number          |   131.446   | 6.2 MB  | `d_id, slug, file`      | 
+| [`pass-candidates.train.tsv.gz`](https://lavis.cs.hs-rm.de/storage/gerdalir/data/pass-candidates.train.tsv.gz)        | Top-1000 _passage_ candidates with text (train)   |  98.380.000    | 85 GB  | `q_id, d_id, rank, text`      | 
+| [`pass-candidates.dev.tsv.gz`](https://lavis.cs.hs-rm.de/storage/gerdalir/data/pass-candidates.dev.tsv.gz)        | Top-1000 _passage_ candidates with text (dev)  |   12.297.000   | 11 GB  | `q_id, d_id, rank, text`      | 
+| [`pass-candidates.test.tsv.gz`](https://lavis.cs.hs-rm.de/storage/gerdalir/data/pass-candidates.test.tsv.gz)        | Top-1000 _passage_ candidates with text (test)   |  12.298.000 | 11 GB  | `q_id, d_id, rank, text`      | 
+| [`doc-candidates.train.tsv.gz`](https://lavis.cs.hs-rm.de/storage/gerdalir/data/doc-candidates.train.tsv.gz)        | Top-1000 _document_ candidates (train)   |  98.380.000    | 1.5 GB  | `q_id, d_id, rank`      |
+| [`doc-candidates.dev.tsv.gz`](https://lavis.cs.hs-rm.de/storage/gerdalir/data/doc-candidates.dev.tsv.gz)        | Top-1000 _document_ candidates (dev)   |  12.297.000     | 189 MB  | `q_id, d_id, rank`      |
+| [`doc-candidates.test.tsv.gz`](https://lavis.cs.hs-rm.de/storage/gerdalir/data/doc-candidates.test.tsv.gz)        | Top-1000 _document_ candidates (test)   |  12.298.000   | 189 MB  | `q_id, d_id, rank`      |
 
 
 
