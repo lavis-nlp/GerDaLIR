@@ -139,7 +139,7 @@ If you use this dataset for your research, please consider citing our Paper:
 ```
 
 ## Related links
-
+ - [Legal Text Analytics](https://github.com/Liquid-Legal-Institute/Legal-Text-Analytics)
  - [awesome-legal-data](https://github.com/openlegaldata/awesome-legal-data)
  - [German-NLP](https://github.com/adbar/German-NLP)
  - [FIRE IRLeD](https://sites.google.com/view/fire2017irled)
